@@ -1,0 +1,18 @@
+version: v1
+identity:
+  api_key: "${ARMORIQ_API_KEY}"
+  user_id: "sentinelflow_admin@example.com"
+  agent_id: "sentinelflow_crew"
+
+mcp_servers:
+  - id: "sentinel"
+    url: "http://localhost:8000/sse"
+    description: "SentinelFlow Protected MCP Operations"
+
+policy:
+  allow:
+    - "sentinel__search_sources"
+    - "sentinel__read_source"
+    - "sentinel__create_draft"
+    - "sentinel__publish_article"
+  deny: []

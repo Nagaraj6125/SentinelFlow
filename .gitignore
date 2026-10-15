@@ -1,0 +1,18 @@
+
+# Secret credentials
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
