@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SentinelFlow — Least-Privilege Agent Crew
 
 > **Enterprise Multi-Agent Orchestration with Cryptographic Intent Verification & Runtime Delegation Enforcement via ArmorIQ**
@@ -147,3 +148,7 @@ SentinelFlow also incorporates an automatic local state fallback that synchroniz
 - **Fail-Closed Execution:** Any unverified or out-of-scope tool invocation raises a block and halts execution.
 - **Genuine AI Integration:** Employs Google Gemini 2.5 Flash for genuine multi-agent reasoning, with an explicitly labeled development fallback if keys are missing.
 - **Least-Privilege Database Access:** Configured for Supabase Publishable client access protected by Row Level Security policies.
+=======
+# SentinelFlow
+Multi-agent crew enforcing least-privilege and cryptographic intent verification via ArmorIQ to neutralize prompt-injection and privilege escalation attacks.
+>>>>>>> 49bba40a0ed69ca701f0c776c5727cab1868bfcb
